@@ -1,119 +1,115 @@
 <!doctype html>
 <html lang="th">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <title>Sticker Reference</title>
+    <title>Sticker Reference</title>
 
-  <style>
-    * {
-      box-sizing: border-box;
-    }
+    <style>
+      * {
+        box-sizing: border-box;
+      }
 
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-      background: #f8fafc;
-      color: #1e293b;
-      padding: 20px;
-    }
+      body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background: #f8fafc;
+        color: #1e293b;
+        padding: 20px;
+      }
 
-    .container {
-      max-width: 900px;
-      margin: 0 auto;
-    }
+      .container {
+        max-width: 900px;
+        margin: 0 auto;
+      }
 
-    h1 {
-      margin: 0;
-      font-size: 28px;
-    }
+      h1 {
+        margin: 0;
+        font-size: 28px;
+      }
 
-    .subtitle {
-      margin-top: 8px;
-      margin-bottom: 24px;
-      color: #64748b;
-      font-size: 15px;
-    }
+      .subtitle {
+        margin-top: 8px;
+        margin-bottom: 24px;
+        color: #64748b;
+        font-size: 15px;
+      }
 
-    .collection-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
-      gap: 16px;
-    }
+      .collection-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+        gap: 16px;
+      }
 
-    .collection-card {
-      display: block;
-      text-decoration: none;
-      color: inherit;
-      background: white;
-      border-radius: 16px;
-      padding: 20px;
-      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
-      border: 1px solid #e2e8f0;
-      transition: 0.2s;
-    }
+      .collection-card {
+        display: block;
+        text-decoration: none;
+        color: inherit;
+        background: white;
+        border-radius: 16px;
+        padding: 20px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+        border: 1px solid #e2e8f0;
+        transition: 0.2s;
+      }
 
-    .collection-card:hover {
-      transform: translateY(-3px);
-      box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
-    }
+      .collection-card:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
+      }
 
-    .icon {
-      font-size: 36px;
-      margin-bottom: 12px;
-    }
+      .icon {
+        font-size: 36px;
+        margin-bottom: 12px;
+      }
 
-    .title {
-      font-size: 20px;
-      font-weight: bold;
-      margin-bottom: 6px;
-    }
+      .title {
+        font-size: 20px;
+        font-weight: bold;
+        margin-bottom: 6px;
+      }
 
-    .count {
-      color: #64748b;
-      font-size: 14px;
-    }
+      .count {
+        color: #64748b;
+        font-size: 14px;
+      }
 
-    .footer-note {
-      margin-top: 28px;
-      color: #94a3b8;
-      font-size: 13px;
-      text-align: center;
-    }
-  </style>
-</head>
+      .footer-note {
+        margin-top: 28px;
+        color: #94a3b8;
+        font-size: 13px;
+        text-align: center;
+      }
+    </style>
+  </head>
 
-<body>
-  <div class="container">
-    <h1>Sticker Reference</h1>
-    <div class="subtitle">
-      เลือกชุดสติกเกอร์ที่ต้องการใช้เป็น Reference
+  <body>
+    <div class="container">
+      <h1>Sticker Reference</h1>
+      <div class="subtitle">เลือกชุดสติกเกอร์ที่ต้องการใช้เป็น Reference</div>
+
+      <div class="collection-grid">
+        <a class="collection-card" href="working.html">
+          <div class="icon">💻</div>
+          <div class="title">Working</div>
+          <div class="count">40 Stickers</div>
+        </a>
+
+        <a class="collection-card" href="fat_girl.html">
+          <div class="icon">🍩</div>
+          <div class="title">Fat Girl</div>
+          <div class="count">40 Stickers</div>
+        </a>
+
+        <a class="collection-card" href="rainbow_girl.html">
+          <div class="icon">🌈</div>
+          <div class="title">Rainbow Girl</div>
+          <div class="count">40 Stickers</div>
+        </a>
+      </div>
+
+      <div class="footer-note">HTML / CSS / JavaScript Static Version</div>
     </div>
-
-    <div class="collection-grid">
-      <a class="collection-card" href="working.html">
-        <div class="icon">💻</div>
-        <div class="title">Working</div>
-        <div class="count">40 Stickers</div>
-      </a>
-
-      <a class="collection-card" href="fat_girl.html">
-        <div class="icon">🍩</div>
-        <div class="title">Fat Girl</div>
-        <div class="count">40 Stickers</div>
-      </a>
-
-      <a class="collection-card" href="rainbow_girl.html">
-        <div class="icon">🌈</div>
-        <div class="title">Rainbow Girl</div>
-        <div class="count">40 Stickers</div>
-      </a>
-    </div>
-
-    <div class="footer-note">
-      HTML / CSS / JavaScript Static Version
-    </div>
-  </div>
-</body>
+  </body>
 </html>
